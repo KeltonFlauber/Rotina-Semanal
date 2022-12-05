@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.WeekTasksFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ToggleButton
+            android:id="@+id/checkedTextViewSeg"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_margin="1dp"
+            android:checked="true"
+            android:background="@drawable/bg_checked_text"
+            android:textOff="Seg."
+            android:textOn="Seg." />
+
+        <ToggleButton
+            android:id="@+id/checkedTextViewTer"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_margin="1dp"
+            android:background="@drawable/bg_checked_text"
+            android:textOff="Ter."
+            android:textOn="Ter." />
+
+        <ToggleButton
+            android:id="@+id/checkedTextViewQua"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_margin="1dp"
+            android:background="@drawable/bg_checked_text"
+            android:textOff="Qua."
+            android:textOn="Qua." />
+
+        <ToggleButton
+            android:id="@+id/checkedTextViewQui"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_margin="1dp"
+            android:background="@drawable/bg_checked_text"
+            android:textOff="Qui."
+            android:textOn="Qui." />
+
+        <ToggleButton
+            android:id="@+id/checkedTextViewSex"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_margin="1dp"
+            android:background="@drawable/bg_checked_text"
+            android:textOff="Sex."
+            android:textOn="Sex." />
+
+        <ToggleButton
+            android:id="@+id/checkedTextViewSab"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_margin="1dp"
+            android:background="@drawable/bg_checked_text"
+            android:textOff="Sab."
+            android:textOn="Sab." />
+
+        <ToggleButton
+            android:id="@+id/checkedTextViewDom"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_margin="1dp"
+            android:background="@drawable/bg_checked_text"
+            android:textOff="Dom."
+            android:textOn="Dom." />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <ImageView
+        android:id="@+id/imageViewNoTask"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/notask2"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textNoTasksToday2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Sem Tarefas..."
+        android:textSize="40sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewNoTask"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewNoTask" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

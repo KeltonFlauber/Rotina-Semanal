@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Lista De Tarefas</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_week_calendar">Tarefas na semana</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_delete">Delete</string>
+    <string name="ToDo_Today_PT">Tarefas De Hoje</string>
+    <string name="delete_Task">Deletar Tarefa?</string>
+
+    //WeekDays PT
+    <string name="Sunday_PT">Domingo</string>
+    <string name="Monday_PT">Segunda</string>
+    <string name="Tuesday_PT">Terça</string>
+    <string name="Wednesday_PT">Quarta</string>
+    <string name="Thursday_PT">Quinta</string>
+    <string name="Friday_PT">Sexta</string>
+    <string name="Saturday_PT">Sábado</string>
+
+    //New Task PT
+    <string name="taskName">Tarefa</string>
+    <string name="taskDescription">Descrição</string>
+    <string name="dayOfWeek">Dia da Semana</string>
+    <string name="hour">Horas:</string>
+    <string name="minutes">Minutos:</string>
+    <string name="subTask">Adicionar metas:</string>
+
+    //home
+    <string name="today_home_pt">Hoje</string>
+    <string name="tomorrow_home_pt">Amanhã</string>
+    <string name="week_home_pt">Durante a semana</string>
+
+</resources>

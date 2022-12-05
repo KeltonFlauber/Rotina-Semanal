@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <style name="textStyle">
+        <item name="android:textSize">25sp</item>
+        <item name="fontFamily">@font/advent_pro_semibold</item>
+    </style>
+    
+</resources>
